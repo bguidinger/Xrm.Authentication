@@ -11,6 +11,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Certificates", "Certificate
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AzureFunction", "src\Authentication\Certificates\AzureFunction\AzureFunction.csproj", "{71F045D2-A83E-4FD4-82BA-9836CBE44369}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ManagedIdentity", "ManagedIdentity", "{DD7AD4D7-8627-40C2-B5ED-61A165A5D7CD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppService", "src\Authentication\ManagedIdentity\AppService\AppService.csproj", "{FC373600-10D2-492D-B00A-EB6785349323}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,10 @@ Global
 		{71F045D2-A83E-4FD4-82BA-9836CBE44369}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{71F045D2-A83E-4FD4-82BA-9836CBE44369}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{71F045D2-A83E-4FD4-82BA-9836CBE44369}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC373600-10D2-492D-B00A-EB6785349323}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC373600-10D2-492D-B00A-EB6785349323}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC373600-10D2-492D-B00A-EB6785349323}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC373600-10D2-492D-B00A-EB6785349323}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -29,6 +37,8 @@ Global
 		{73B01DE5-6CE4-43CD-9E90-5B5871CBB94D} = {143DE27A-BD0C-47F6-B0C7-078B754CBC6F}
 		{54562AD9-F914-4DEB-AC4D-DF8AB6E7DB58} = {73B01DE5-6CE4-43CD-9E90-5B5871CBB94D}
 		{71F045D2-A83E-4FD4-82BA-9836CBE44369} = {54562AD9-F914-4DEB-AC4D-DF8AB6E7DB58}
+		{DD7AD4D7-8627-40C2-B5ED-61A165A5D7CD} = {73B01DE5-6CE4-43CD-9E90-5B5871CBB94D}
+		{FC373600-10D2-492D-B00A-EB6785349323} = {DD7AD4D7-8627-40C2-B5ED-61A165A5D7CD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B3C6AF8C-0813-485C-AA66-268C5BBA4A38}
